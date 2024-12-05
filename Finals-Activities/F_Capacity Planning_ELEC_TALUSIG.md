@@ -1,18 +1,5 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 91fc329de6f84b628539d587ad03daea |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, Ralph Luis G.\       | DATE PERFORMED:        | /50      |
-| TALUSIG, Nikos A.                | 11/28/2024             |          |
-+----------------------------------+------------------------+----------+
-| Section:IDC2                     | DATE SUBMITTED:        |          |
-|                                  | 12/03/2024             |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/a4f08be1-d5c9-4937-ade8-830336407cd9)
+
 
 # SYSADM1 -- Capacity Management & Planning
 
@@ -120,33 +107,81 @@ network\'s scalability and performance to ensure a seamless user
 experience during the peak traffic period. Consider factors such as
 increased user demand, new applications, and security threats.
 
-**IMPROVED NETWORK:**
+Problems:
+1.	Single ISP Dependency
+o	A single point of failure for internet connectivity. If the ISP experiences an outage, the entire network will lose access to the internet.
+2.	Lack of Redundancy in Core Switch and Edge Routers
+o	Any failure in the core switch or edge router will result in a total network outage, severely impacting business continuity.
+3.	Limited Scalability
+o	Adding more devices in the future will be challenging due to the current network design, requiring substantial reconfiguration or hardware upgrades.
+4.	Potential Bottleneck
+o	A single core switch and single-port connections increase the risk of network congestion during traffic surges, degrading performance for users.
+5.	Shared VLAN
+o	Without VLAN segmentation and security measures like Access Control Lists (ACLs), the network lacks isolation between servers, making it prone to unintended access and lateral movement during breaches.
+6.	Security Risks
+o	The absence of explicit security measures (e.g., firewalls, ACLs) leaves the network open to attacks such as Distributed Denial of Service (DDoS) and unauthorized access.
+Addressing these issues will require implementing redundancy, improving scalability, segmenting VLANs, and adding robust security protocols to ensure a reliable and secure network infrastructure.
 
-> ![](vertopal_91fc329de6f84b628539d587ad03daea/media/image3.png){width="7.275339020122485in"
-> height="3.875042650918635in"}\
-> In the improved topology, key potential bottlenecks include the
-> dependence on the 3560 Multilayer Switch and Edge Routers for
-> inter-VLAN and internet-bound traffic, as these components centralize
-> data flow. While redundancy has been introduced via the primary and
-> standby edge routers, the connections between the VLAN-specific
-> switches (e.g., VLAN 10, VLAN 20, etc.) and the core devices may
-> experience congestion during peak usage due to the limited uplink
-> bandwidth. Furthermore, security risks such as unauthorized access or
-> VLAN hopping persist without robust configurations like Access Control
-> Lists (ACLs) and port-based security.\
-> \
-> To ensure scalability and optimal performance, it is recommended to
-> upgrade the core switches to higher-capacity devices supporting
-> multi-gigabit links and implement Link Aggregation Protocol (LACP) for
-> increased bandwidth on uplinks. Introducing software-defined
-> networking (SDN) can enhance traffic management and resource
-> allocation dynamically. Additionally, inter-VLAN routing can be
-> improved by enabling Layer 3 routing capabilities on all distribution
-> switches, reducing the dependency on the core for routing. While these
-> upgrades might increase initial costs, the benefits include better
-> fault tolerance, reduced congestion, and improved security---essential
-> for supporting growing user demands and new applications in the
-> network.
+
+
+
+
+
+
+Proposed Network and Improvements
+The improved topology resolves many of the identified problems in the original network design. 
+1.	Single ISP Dependency
+The topology includes two Edge Routers (Primary and Standby) connected to two ISPs. This ensures redundancy at the ISP level. If one ISP link or router fails, the other can take over, eliminating the single point of failure for internet connectivity.
+
+Estimated Costs:
+•	ISP redundancy (annual cost): PHP 280,000–1,120,000
+•	Additional edge router: PHP 112,000–280,000
+
+2.	 Lack of Redundancy in Core Switch and Edge Routers
+The topology now features two multilayer core switches (3560-24PS) interconnected, providing failover capabilities. Two edge routers (primary and standby) are deployed, further improving fault tolerance. If one fails, the other ensures continuous network operation.
+Estimated Costs:
+•	Core switch (per unit): PHP 168,000–448,000
+•	Edge router: PHP 112,000–280,000
+
+
+3.	Limited Scalability
+The design includes multiple 2960 switches across VLANs. These switches are connected to the core switches, enabling scalability. The layout allows for easy addition of more switches or devices without remaking the network architecture.
+Dynamic configurations, such as DHCP, will be implemented to enhance scalability, eliminating the need for manual configuration when adding new devices.
+Estimated Costs:
+•	Layer 2 switches (per unit): PHP 8,540
+•	DHCP setup and configuration: PHP 15,800
+
+4.	Potential Bottleneck
+•	The switches are connected using multiple links, preventing single-port congestion.
+•	Devices are evenly distributed across VLANs, reducing traffic load on any single switch.
+•	The inclusion of redundant uplinks between switches and the core reduces the likelihood of traffic bottlenecks.
+•	Addition of load balancing to avoid traffic congestion on the multi-layer switches. 
+
+Estimated Costs:
+•	Load balancer: PHP 75,000
+•	Redundant uplinks: PHP 12,000 – PHP 20,000
+
+5.	Shared VLAN
+•	VLAN segmentation has been implemented effectively, with VLANs clearly labeled (e.g., VLAN 10, VLAN 20, VLAN 30, etc.) for specific server and device groups.
+•	This separation ensures that devices and servers only interact as intended, reducing unintended communication.
+•	Security measures such as ACLs can be applied to control access between VLANs.
+Estimated Costs:
+•	VLAN segmentation: PHP 0–28,000 (mainly tasks)
+
+6.	Security Risk
+•	The inclusion of 5506-X ASA firewalls ensures that the network is protected from external threats like DDoS attacks and unauthorized access.
+•	VLAN segmentation adds another layer of internal security by isolating traffic.
+•	The redundant setup and structured architecture allow for more efficient deployment of ACLs and firewall policies to protect sensitive data.
+Estimated Costs:
+•	Firewalls (per unit): PHP 75,320
+
+
+Overall Assessment
+The new topology addresses the original design’s shortcomings by implementing redundancy, improving scalability, enhancing traffic handling, and reinforcing network security. It’s a well-rounded, fault-tolerant design suitable for a robust enterprise network. 
+
+IMPROVED NETWORK:
+![image](https://github.com/user-attachments/assets/328f2393-36f9-4330-bd3e-629b6e9dfab4)
+
 
   ------------------------------------------------------------------------------
   Criteria          Excellent \| 10pts Good \| 7pts        Needs Improvement \|

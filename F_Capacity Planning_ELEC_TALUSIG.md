@@ -1,27 +1,12 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 96ed3b9eea51453496f3f0370ca74157 |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, Ralph Luis G.\       | DATE PERFORMED:        | /50      |
-| TALUSIG, Nikos A.                | 11/28/2024             |          |
-+----------------------------------+------------------------+----------+
-| Section: IDC2                    | DATE SUBMITTED:        |          |
-|                                  | 12/05/2024             |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/ab8cce58-a03f-46e6-9a34-2c46d770b3fc)
+
 
 # SYSADM1 -- Capacity Management & Planning
 
 ## Part 1. A Simulated Dataset for Capacity Planning Exercise {#part-1.-a-simulated-dataset-for-capacity-planning-exercise .list-paragraph}
 
-![](vertopal_96ed3b9eea51453496f3f0370ca74157/media/image2.png){width="4.749564741907261in"
-height="2.4791666666666665in"}**Scenario:** A mid-sized e-commerce
-website is expecting a significant surge in traffic due to an upcoming
-holiday sale.
+![image](https://github.com/user-attachments/assets/c240ef06-aecb-4d55-8afe-dcf8dac82242)
+
 
 ### [Projected Traffic Increase]{.underline}
 
@@ -62,17 +47,8 @@ Tasks:
 3.  Discuss the pros and cons of each proposed solution by filling out
     the table below.
 
-+-------------+---------------+------------+--------------+-----------+
-| Proposed    |               | Cost       | Complexity   | Potential |
-| Solution    | ------------- |            |              | impact on |
-|             |   Pros   Cons |            |              | system    |
-|             |               |            |              | pe        |
-|             | ------ ------ |            |              | rformance |
-|             |               |            |              |           |
-|             |               |            |              |           |
-|             | ------------- |            |              |           |
-+=============+===============+============+==============+===========+
-+-------------+---------------+------------+--------------+-----------+
+![image](https://github.com/user-attachments/assets/97a50250-7b99-4862-a712-150a37013580)
+
 
 Grading Rubric:
 
@@ -281,8 +257,7 @@ fault-tolerant design suitable for a robust enterprise network.
 
 **IMPROVED NETWORK:**
 
-![](vertopal_96ed3b9eea51453496f3f0370ca74157/media/image3.png){width="7.027083333333334in"
-height="3.709722222222222in"}
+![image](https://github.com/user-attachments/assets/4227eb1a-3ab6-4a83-8102-3d0f014e6b9c)
 
   ------------------------------------------------------------------------------
   Criteria          Excellent \| 10pts Good \| 7pts        Needs Improvement \|

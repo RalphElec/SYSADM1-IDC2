@@ -156,7 +156,7 @@ original network design.
 
 -   Additional edge router: **PHP 112,000--280,000**
 
-    1.  **Lack of Redundancy in Core Switch and Edge Routers**
+    2.  **Lack of Redundancy in Core Switch and Edge Routers**
 
 The topology now features two multilayer core switches (3560-24PS)
 interconnected, providing failover capabilities. Two edge routers
@@ -169,7 +169,7 @@ If one fails, the other ensures continuous network operation.
 
 -   Edge router: **PHP 112,000--280,000**
 
-    1.  **Limited Scalability**
+    3.  **Limited Scalability**
 
 The design includes multiple 2960 switches across VLANs. These switches
 are connected to the core switches, enabling scalability. The layout
@@ -186,10 +186,10 @@ new devices.
 
 -   DHCP setup and configuration: **PHP 15,800**
 
-    1.  **Potential Bottleneck**
+    4.  **Potential Bottleneck**
 
 ```{=html}
-<!-- -->
+
 ```
 -   The switches are connected using multiple links, preventing
     single-port congestion.
@@ -209,10 +209,10 @@ new devices.
 
 -   Redundant uplinks: **PHP 12,000 -- PHP 20,000**
 
-    1.  **Shared VLAN**
+    5.  **Shared VLAN**
 
 ```{=html}
-<!-- -->
+
 ```
 -   VLAN segmentation has been implemented effectively, with VLANs
     clearly labeled (e.g., VLAN 10, VLAN 20, VLAN 30, etc.) for specific
@@ -228,10 +228,10 @@ new devices.
 
 -   VLAN segmentation: **PHP 0--28,000 (mainly tasks)**
 
-    1.  **Security Risk**
+    6.  **Security Risk**
 
 ```{=html}
-<!-- -->
+
 ```
 -   The inclusion of *5506-X ASA firewalls* ensures that the network is
     protected from external threats like DDoS attacks and unauthorized

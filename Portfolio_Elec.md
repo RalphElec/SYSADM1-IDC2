@@ -1,15 +1,5 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 6be108c369e34f32baff5da09cf9b447 |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION TECHNOLOGY |                        |          |
-+==================================+========================+==========+
-| NAME: ELEC, RALPH LUIS G.        |                        |          |
-+----------------------------------+------------------------+----------+
-| SECTION: IDC2                    | DATE SUBMITTED:        |          |
-+----------------------------------+------------------------+----------+
+
+![image](https://github.com/user-attachments/assets/b6f7d730-dc74-4c8a-9b3f-8cee55e5a27e)
 
 # \<SUBJECT CODE\> PORTFOLIO
 

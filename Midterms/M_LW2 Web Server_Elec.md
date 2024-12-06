@@ -1,18 +1,5 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| a4e075f9476f4b9aac45bca18a539a99 |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, RALPH LUIS G.        | DATE                   | /50      |
-|                                  | PERFORMED:10/10/2024   |          |
-+----------------------------------+------------------------+----------+
-| Section:IDC2                     | DATE                   |          |
-|                                  | SUBMITTED:10/10/2024   |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/28e44f7d-9bb7-4cd5-8ab5-c46f8b1c4a71)
+
 
 1.  # SYSADM1 -- Setting Up Webserver
 
@@ -25,8 +12,8 @@
 1.  Install IIS by adding it as a role, select necessary features,
     include monitoring tools
 
-![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image2.png){width="5.182292213473316in"
-height="3.5900229658792653in"}
+![image](https://github.com/user-attachments/assets/dd8e1082-7131-444a-819a-2bed90c4de77)
+
 
 2.  Create a website by opening IIS Manager
 
@@ -38,39 +25,38 @@ height="3.5900229658792653in"}
     -   Enter a name, description, physical path (where your website
         files will reside), IP address, port, and host name.
 
-![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image3.png){width="6.21875in"
-height="5.854166666666667in"}
+![image](https://github.com/user-attachments/assets/6f0bcf8e-d6e5-4c63-ab27-6fa3a321c768)
 
 3.  Configure the Website:
 
     -   Right-click on your website and select Edit.
 
-![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image4.png){width="5.59375in"
-height="3.34375in"}
+![image](https://github.com/user-attachments/assets/0d5ebb12-3867-4621-8140-6702a07b1b9f)
+
 
 -   Set the Default Document to the name of your main HTML file
     \>default.html
 
-![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image5.png){width="3.4166666666666665in"
-height="2.5625in"}
+![image](https://github.com/user-attachments/assets/54b28b02-76a0-4e50-b487-e1b86414b550)
+
 
 -   Configure other settings as needed (e.g., SSL certificates,
     authentication)
 
-![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image6.png){width="7.027083333333334in"
-height="4.722222222222222in"}
+![image](https://github.com/user-attachments/assets/c3b83b32-9d9e-487d-9cb0-9f28200a93be)
+
 
 4.  Create a Web Page:
 
     -   Create an HTML file in the physical path you specified.
 
-> ![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image7.png){width="3.652083333333333in"
-> height="1.52377624671916in"}
+![image](https://github.com/user-attachments/assets/d27b0a15-9152-4a97-86ca-d9bacd6ca12e)
+
 
 -   Save it as default.html or your preferred name.
 
-> ![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image8.png){width="6.604166666666667in"
-> height="2.28125in"}
+![image](https://github.com/user-attachments/assets/ebc9bdce-09d6-407c-953c-6971e3594e60)
+
 
 5.  Test the Web Server:
 
@@ -79,8 +65,8 @@ height="4.722222222222222in"}
 
     -   You should see your web page displayed.
 
-![](vertopal_a4e075f9476f4b9aac45bca18a539a99/media/image9.png){width="7.027083333333334in"
-height="5.611111111111111in"}
+![image](https://github.com/user-attachments/assets/b43f2436-e6d7-493d-ba44-55dce1e4d6d4)
+
 
 When I was installing I encountered a problem on where I couldn't turn
 off the firewall for my server and client handshake which was weird
@@ -93,26 +79,5 @@ so I can open the website I created.
 
 > Grading Rubric
 
-  ----------------- ------------ -----------------------------------------------
-  **Criteria**      **Points**   **Description**
+![image](https://github.com/user-attachments/assets/e4774e68-556f-4cd3-9756-5d1975c24ed4)
 
-  Web Server        15           Correctly installs IIS or another web server on
-  Installation                   the virtual machine.
-
-  Website           15           Successfully configures the website with the
-  Configuration                  correct physical path, IP address, port, and
-                                 default document.
-
-  Successful Access 15           Successfully accesses the web page from the
-                                 client computer using the correct URL.
-
-  Troubleshooting   15           Demonstrates ability to troubleshoot common
-                                 issues, such as network connectivity problems
-                                 or configuration errors.
-
-  Documentation     10           Provides clear and concise documentation of the
-                                 installation, configuration, and testing
-                                 process.
-
-  Total             /70          
-  ----------------- ------------ -----------------------------------------------

@@ -1,18 +1,4 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 6e585e60a2674a71ba411acebd4bf0fe |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, Ralph Luis G.        | DATE PERFORMED:        |          |
-|                                  | 11/21/2024             |          |
-+----------------------------------+------------------------+----------+
-| Section: IDC2                    | DATE SUBMITTED:        |          |
-|                                  | 11/21/2024             |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/786f6afe-01c1-4bc5-bdfb-dee888b2bbd2)
 
 **WINDOWS ADMINISTRATIVE TOOLS**
 

@@ -134,7 +134,8 @@ Kerberos Lab Activity: A step-by-step Guide:\
 \
 \
 Git Basics:\
-![image](https://github.com/user-attachments/assets/6f28c64b-c56b-4daf-9b3a-18c222a170b6)
+![image](https://github.com/user-attachments/assets/d76f7988-a133-4bb2-970d-d2a9e9be8020)
+
 
 \
 \

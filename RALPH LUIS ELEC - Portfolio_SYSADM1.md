@@ -1,72 +1,20 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 1ba9a5ea794746678285c55f3735c4fb |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION TECHNOLOGY |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, RALPH LUIS G.        |                        | z        |
-+----------------------------------+------------------------+----------+
-| SECTION: IDC2                    | DATE SUBMITTED:        |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/b3ef5dfb-bc5c-4dfa-9852-1cfb023d3853)
+
 
 # SYSADM1 PORTFOLIO
 
 > **Table of Contents**
 
-+----------------------------------------------+--------+--------+----+
-| **Name of Activities**                       | **     | **S    | ** |
-|                                              | Date** | core** | Pa |
-|                                              |        |        | ge |
-|                                              |        |        | N  |
-|                                              |        |        | o. |
-|                                              |        |        | ** |
-+----------------------------------------------+--------+--------+----+
-| **First Grading**                            |        |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Case Study: Evolution of Systems           | 08/1   | 50/50  | 2  |
-| > Administration                             | 5/2024 |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Quiz 1                                     | 09/1   | 21/30  | 3  |
-|                                              | 2/2024 |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Introduction to File Systems in Windows    | 08/2   | 45/50  | 4  |
-| > and Linux                                  | 2/2024 |        |    |
-+----------------------------------------------+--------+--------+----+
-| **Midterms**                                 |        |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Midterm Assignment                         | 10/1   | 36/40  | 5  |
-|                                              | 0/2024 |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Setting Up Webserver                       | 10/1   | 50/50  | 6  |
-|                                              | 0/2024 |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Monitoring Print Services in Windows       | 10/0   | 50/50  | 7  |
-| > Server 2019                                | 3/2024 |        |    |
-+----------------------------------------------+--------+--------+----+
-| **Finals**                                   |        |        |    |
-+----------------------------------------------+--------+--------+----+
-| > Kerberos Lab Activity: A step-by-step      | 11/1   | Not    | 8  |
-| > Guide                                      | 4/2024 | Graded |    |
-+----------------------------------------------+--------+--------+----+
-| > Git Basics                                 | 11/2   | Not    | 9  |
-|                                              | 1/2024 | Graded |    |
-+----------------------------------------------+--------+--------+----+
-| > Case Study: TechGuard Solutions\' Recovery | 11/2   | Not    | 10 |
-| > Disk Strategy in Action                    | 1/2024 | Graded |    |
-+----------------------------------------------+--------+--------+----+
-| Course Reflection                            |        |        | 11 |
-+----------------------------------------------+--------+--------+----+
+![image](https://github.com/user-attachments/assets/515f9e5e-2f7d-482e-8719-ed0fde7c1f65)
 
 **Case Study: Evolution of Systems Administration:**
 
-![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image2.jpg){width="5.018520341207349in"
-height="7.117391732283465in"}
+![image](https://github.com/user-attachments/assets/0a342c51-47a4-41dc-bcf2-3303c907a089)
 
-**Quiz 1:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image3.jpg){width="4.612458442694663in"
-height="6.939130577427822in"}**\
+
+**Quiz 1:**
+![image](https://github.com/user-attachments/assets/439d1716-a6d4-4f0e-b7e5-b5b883930165)
+
 \
 \
 \
@@ -82,9 +30,9 @@ height="6.939130577427822in"}**\
 \
 \
 \
-Introduction to File Systems in Windows and Linux:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image4.png){width="7.0in"
-height="6.79375in"}**\
+Introduction to File Systems in Windows and Linux:**
+![image](https://github.com/user-attachments/assets/59b6298f-27b6-432c-ad0a-036804625464)
+
 \
 \
 \
@@ -99,9 +47,9 @@ height="6.79375in"}**\
 \
 \
 \
-Midterm Assignment:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image5.jpg){width="5.2538834208223975in"
-height="6.617391732283465in"}**\
+Midterm Assignment:
+![image](https://github.com/user-attachments/assets/4d9933a5-9f84-42a6-bd17-3debe82e3404)
+
 \
 \
 \
@@ -121,9 +69,9 @@ height="6.617391732283465in"}**\
 \
 \
 \
-Midterm Exam:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image6.png){width="6.115436351706037in"
-height="7.105158573928259in"}
+Setting Up Webserver:\
+![image](https://github.com/user-attachments/assets/c0376fda-768b-4e6b-8ffe-2eec3e381834)
+
 
 **\
 \
@@ -134,8 +82,8 @@ height="7.105158573928259in"}
 
 **\
 Monitoring Print Services in Windows Server 2019:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image7.png){width="7.0in"
-height="6.763888888888889in"}**\
+![image](https://github.com/user-attachments/assets/2857e196-1cf2-4f87-b579-83f25640b687)
+
 \
 \
 \
@@ -154,8 +102,9 @@ height="6.763888888888889in"}**\
 \
 \
 Kerberos Lab Activity: A step-by-step Guide:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image8.png){width="7.0in"
-height="5.665277777777778in"}**\
+![image](https://github.com/user-attachments/assets/924752d9-a7d6-4c20-9f4f-8f46491e5ba1)
+
+
 \
 \
 \
@@ -182,8 +131,8 @@ height="5.665277777777778in"}**\
 \
 \
 Git Basics:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image9.png){width="7.0in"
-height="8.36111111111111in"}**\
+![image](https://github.com/user-attachments/assets/6f28c64b-c56b-4daf-9b3a-18c222a170b6)
+
 \
 \
 \
@@ -193,8 +142,8 @@ height="8.36111111111111in"}**\
 \
 \
 Case Study: TechGuard Solutions\' Recovery Disk Strategy in Action:\
-**![](vertopal_1ba9a5ea794746678285c55f3735c4fb/media/image10.png){width="6.202574365704287in"
-height="7.49908573928259in"}**\
+![image](https://github.com/user-attachments/assets/628e8644-e0c3-4548-b160-6031ce3b3d54)
+
 \
 **
 

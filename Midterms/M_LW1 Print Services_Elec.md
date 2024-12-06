@@ -1,18 +1,5 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 5dd0a0ac437140a8884849d50def90a6 |                        |          |
-| /media/image9.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+==================================+========================+==========+
-| NAME: ELEC,RALPH LUIS G.         | DATE                   | /50      |
-|                                  | PERFORMED:10/03/2024   |          |
-+----------------------------------+------------------------+----------+
-| Section:IDC2                     | DATE SUBMITTED:        |          |
-|                                  | 10/03/2024             |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/6c096b31-489d-4265-b021-9bbe5ed8491e)
+
 
 1.  # SYSADM1 -- Monitoring Print Services in Windows Server 2019
 
@@ -24,31 +11,30 @@ Part 1: Setting Up Print Services
 
 1.  Install and configure **print.srv** domain
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image2.png){width="7.027083333333334in"
-> height="3.1659722222222224in"}
+![image](https://github.com/user-attachments/assets/02a81ff6-2442-4505-bee5-5df63a1354aa)
+
+
 
 2.  Connect one client to the recently created domain
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image1.png){width="4.146411854768154in"
-> height="1.7398261154855643in"}
+![image](https://github.com/user-attachments/assets/65a0a389-486d-4889-867a-63ed3da99a28)
+
 
 3.  Install Print Services Role:
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image8.png){width="4.010976596675415in"
-> height="1.7814982502187227in"}
+![image](https://github.com/user-attachments/assets/bc7a1502-a13c-4347-a0ac-41b97e65eebb)
 
 4.  Search the internet for any printer installer and convert it to iso
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image3.png){width="6.657179571303587in"
-> height="0.7501049868766404in"}
+![image](https://github.com/user-attachments/assets/3f6779ba-3f69-4ec7-bc90-f2e385f9e529)
+
 
 5.  Install and deploy it as network printer
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image13.png){width="5.021534339457568in"
-> height="2.0211154855643043in"}
->
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image10.png){width="4.552718722659668in"
-> height="2.6670384951881014in"}
+![image](https://github.com/user-attachments/assets/6d5865bf-b7c7-47b2-8bef-b21b2f333e51)
+
+![image](https://github.com/user-attachments/assets/04cf813a-5d5d-440f-af57-3f99341a62e5)
+
 
 Part 2: Monitoring Print Services
 
@@ -62,17 +48,14 @@ Part 2: Monitoring Print Services
     -   Navigate to Applications and Services Logs \> Microsoft \>
         > Windows \> PrintService.
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image7.png){width="4.563136482939632in"
-> height="1.4897911198600176in"}
+![image](https://github.com/user-attachments/assets/918f0762-1d84-4465-b711-b0e79742560a)
 
 -   Review logs for print jobs, errors, and warnings.
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image5.png){width="7.027083333333334in"
-> height="2.6131944444444444in"}
->
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image12.png){width="7.027083333333334in"
-> height="1.6381944444444445in"}
->
+![image](https://github.com/user-attachments/assets/c61b6210-0364-420b-8ff9-6432638e334b)
+
+![image](https://github.com/user-attachments/assets/fa575d67-7e76-4ccf-8ac9-b76835df379f)
+
 > The printer could not print virtually if the port was on LPT port 1
 > but it worked when I connected it to PORTPROMPT.
 
@@ -80,20 +63,17 @@ Part 2: Monitoring Print Services
 
     -   Open Performance Monitor (run perfmon).
 
-![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image15.png){width="7.027083333333334in"
-height="4.444444444444445in"}
+![image](https://github.com/user-attachments/assets/f0f82a9d-3f12-4102-850b-f5aed8363a17)
 
 > In the left panel, expand Data Collector Sets \> System.
 
 -   Right-click System Performance and select Start.
 
-![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image4.png){width="6.928050087489064in"
-height="3.7505238407699037in"}
+![image](https://github.com/user-attachments/assets/d82114a9-3879-4297-831e-3c621cf11361)
 
 -   Monitor performance metrics related to print services.
 
-![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image15.png){width="7.027083333333334in"
-height="4.444444444444445in"}
+![image](https://github.com/user-attachments/assets/a06eb25c-d60d-4b55-a8f3-7b0710c5bc13)
 
 3.  Using Print Management Console:
 
@@ -103,9 +83,8 @@ height="4.444444444444445in"}
 
     -   Use the Printers node to check the status of all printers.
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image12.png){width="7.027083333333334in"
-> height="1.6381944444444445in"}
->
+![image](https://github.com/user-attachments/assets/075134cc-6b13-4dda-ac28-9c087b151fea)
+
 > Part 3: Exploring Third-Party Monitoring Tools
 
 1.  Research at least two third-party print monitoring tools
@@ -155,17 +134,15 @@ height="4.444444444444445in"}
 
     -   Choose one of the tools to install in your environment.
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image6.png){width="6.511325459317585in"
-> height="0.5729965004374453in"}
+![image](https://github.com/user-attachments/assets/1cccf642-4400-46c4-9503-db496a4bb79e)
 
 -   Follow the installation instructions provided by the tool\'s
     > documentation.
 
 -   Configure it to monitor your print services.
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image11.png){width="6.792614829396325in"
-> height="2.0940419947506563in"}
->
+![image](https://github.com/user-attachments/assets/dc1dbea7-ba4f-4155-aa65-748319a1d676)
+
 > I downloaded the PrintInspector
 
 3.  Test and Report Findings:
@@ -183,162 +160,8 @@ height="4.444444444444445in"}
 -   Analyze the collected data (e.g., print volume, errors, user
     > activity).
 
-> ![](vertopal_5dd0a0ac437140a8884849d50def90a6/media/image14.png){width="7.027083333333334in"
-> height="3.688888888888889in"}
->
-> Rubric
+![image](https://github.com/user-attachments/assets/3dd7bde0-1b0e-4092-8550-a2148aa9100f)
 
-+-------+------------+-----------+-----------+------+---------+------+
-| > **  | > **1      | > **2     | > **3     | >    | > **5   | > *  |
-| Crite | > (Unsatis | > (Needs  | > (Satisf |  **4 | >       | *Sco |
-| ria** | factory)** | > Impro   | actory)** | >    |  (Excel | re** |
-|       |            | vement)** |           | (Goo | lent)** |      |
-|       |            |           |           | d)** |         |      |
-+=======+============+===========+===========+======+=========+======+
-+-------+------------+-----------+-----------+------+---------+------+
+![image](https://github.com/user-attachments/assets/40b6eab8-33a9-4dcd-90e1-a9deb785e2ee)
 
-+---------------------------------------------------------------+---+---+---+---+---+---+
-| > **Part 1: Setting Up Print Services**                       |   |   |   |   |   |   |
-+===============================================================+===+===+===+===+===+===+
-+---------------------------------------------------------------+---+---+---+---+---+---+
-
-+----------+--------+---------+---------+----------+---------------+---+
-| >        | > No   | >       | >       | > Domain | > Domain      |   |
-| **Domain | >      |  Domain |  Domain | > co     | > configured  |   |
-| > Instal | domain | >       | >       | nfigured | > and         |   |
-| lation** | > c    | created | created | > well   | > documented  |   |
-|          | reated | > with  | > co    |          | > thoroughly  |   |
-|          |        | >       | rrectly |          |               |   |
-|          |        |  errors |         |          |               |   |
-+==========+========+=========+=========+==========+===============+===+
-+----------+--------+---------+---------+----------+---------------+---+
-
-+----------+---------+----------+-----------+----------+------------+---+
-| >        | >       | > Co     | > Client  | > Client | > Client   |   |
-| **Client |  Client | nnection | >         | > c      | >          |   |
-| > Conn   | > not   | >        | connected | onnected |  connected |   |
-| ection** | > co    |  attempt | > but     | > c      | > and      |   |
-|          | nnected | > failed | > with    | orrectly | >          |   |
-|          |         |          | > issues  |          | documented |   |
-|          |         |          |           |          | > well     |   |
-+==========+=========+==========+===========+==========+============+===+
-+----------+---------+----------+-----------+----------+------------+---+
-
-+------------+--------+---------+---------+-----------+---------------+---+
-| > **Print  | > Role | > Role  | > Role  | > Role    | > Role        |   |
-| > Services | > not  | > in    | > in    | >         | > installed,  |   |
-| > Role     | > ins  | stalled | stalled | installed | > configured, |   |
-| > Inst     | talled | > with  | > co    | > and     | > and         |   |
-| allation** |        | >       | rrectly | > c       | > documented  |   |
-|            |        |  issues |         | onfigured | > thoroughly  |   |
-+============+========+=========+=========+===========+===============+===+
-+------------+--------+---------+---------+-----------+---------------+---+
-
-+-----------+-------+-----------+----------+----------+-------------+---+
-| >         | > No  | >         | > I      | > I      | > Installer |   |
-| **Printer | >     | Installer | nstaller | nstaller | >           |   |
-| >         |  inst | > c       | > c      | > c      |  converted, |   |
-| Installer | aller | onversion | onverted | onverted | > used, and |   |
-| > Con     | >     | >         | > but    | > and    | >           |   |
-| version** | found | attempted | > not    | > used   |  documented |   |
-|           |       | > but     | > used   |          | > well      |   |
-|           |       | > failed  |          |          |             |   |
-+===========+=======+===========+==========+==========+=============+===+
-+-----------+-------+-----------+----------+----------+-------------+---+
-
-+------------+--------+----------+----------+---------+-------------+---+
-| >          | > P    | > De     | >        | >       | > Printer   |   |
-|  **Network | rinter | ployment |  Printer | Printer | > deployed, |   |
-| > Printer  | > not  | > failed | >        | > d     | > tested,   |   |
-| > De       | > de   |          | deployed | eployed | > and       |   |
-| ployment** | ployed |          | > but    | > co    | >           |   |
-|            |        |          | > not    | rrectly |  documented |   |
-|            |        |          | > fu     |         | > well      |   |
-|            |        |          | nctional |         |             |   |
-+============+========+==========+==========+=========+=============+===+
-+------------+--------+----------+----------+---------+-------------+---+
-
-+---------------------------------------------------------------+---+---+---+---+---+---+
-| > **Part 2: Monitoring Print Services**                       |   |   |   |   |   |   |
-+===============================================================+===+===+===+===+===+===+
-+---------------------------------------------------------------+---+---+---+---+---+---+
-
-+--------+--------+----------+----------+----------+----------------+---+
-| > *    | >      | > Opened | > Logs   | > Logs   | > Logs         |   |
-| *Event |  Event | > but no | >        | >        | > reviewed     |   |
-| >      | >      | > logs   | reviewed | reviewed | > with         |   |
-| Viewer | Viewer | >        | > but    | > with   | > thorough     |   |
-| > U    | > not  | reviewed | > sup    | > some   | > analysis and |   |
-| sage** | >      |          | erficial | >        | >              |   |
-|        | opened |          |          | analysis |  documentation |   |
-+========+========+==========+==========+==========+================+===+
-+--------+--------+----------+----------+----------+----------------+---+
-
-+-----------+-----------+---------+---------+----------+------------+---+
-| > **Pe    | > Pe      | >       | >       | >        | > Metrics  |   |
-| rformance | rformance |  Opened | Metrics |  Metrics | >          |   |
-| > Monitor | > Monitor | > but   | > mo    | > m      | monitored, |   |
-| > Usage** | > not     | > no    | nitored | onitored | >          |   |
-|           | > opened  | >       | > but   | > with   |  analyzed, |   |
-|           |           | metrics | > not   | > some   | > and      |   |
-|           |           | > mo    | > a     | >        | >          |   |
-|           |           | nitored | nalyzed | analysis | documented |   |
-|           |           |         |         |          | >          |   |
-|           |           |         |         |          | thoroughly |   |
-+===========+===========+=========+=========+==========+============+===+
-+-----------+-----------+---------+---------+----------+------------+---+
-
-+------------+--------+-----------+-----------+--------+------------+---+
-| > **Print  | > C    | > Opened  | > Active  | >      | > Active   |   |
-| >          | onsole | > but     | > jobs    | Active | > jobs     |   |
-| Management | > not  | > func    | > viewed  | > jobs | > viewed   |   |
-| > Console  | >      | tionality | > supe    | >      | > and      |   |
-| > Usage**  | opened | > not     | rficially | viewed | >          |   |
-|            |        | > used    |           | > with | documented |   |
-|            |        |           |           | > some | >          |   |
-|            |        |           |           | >      | thoroughly |   |
-|            |        |           |           | detail |            |   |
-+============+========+===========+===========+========+============+===+
-+------------+--------+-----------+-----------+--------+------------+---+
-
-+---------------------------------------------------------------+---+---+---+---+---+---+
-| > **Part 3: Exploring Third-Party Tools**                     |   |   |   |   |   |   |
-+===============================================================+===+===+===+===+===+===+
-+---------------------------------------------------------------+---+---+---+---+---+---+
-
-+---------+----------+---------+----------+-----------+-------------+---+
-| > **R   | > No     | > R     | >        | >         | > Research  |   |
-| esearch | > tools  | esearch | Research |  Research | > on two    |   |
-| > on    | > re     | > inc   | > on one | > on two  | > tools,    |   |
-| >       | searched | omplete | > tool   | > tools   | > detailed  |   |
-| Tools** |          |         | > c      | > with    | > analysis, |   |
-|         |          |         | ompleted | > some    | > and       |   |
-|         |          |         |          | >         | >           |   |
-|         |          |         |          |  analysis |  comparison |   |
-+=========+==========+=========+==========+===========+=============+===+
-+---------+----------+---------+----------+-----------+-------------+---+
-
-+------------+-------+---------+----------+-----------+-------------+---+
-| > **In     | >     | > Insta | > Tool   | > Tool    | > Tool      |   |
-| stallation |  Tool | llation | > i      | >         | >           |   |
-| > and      | > not | >       | nstalled | installed |  installed, |   |
-| > Confi    | >     |  failed | > but    | > and     | >           |   |
-| guration** |  inst |         | > not    | > c       | configured, |   |
-|            | alled |         | > co     | onfigured | > and       |   |
-|            |       |         | nfigured | > with    | >           |   |
-|            |       |         |          | > issues  |  documented |   |
-|            |       |         |          |           | >           |   |
-|            |       |         |          |           |  thoroughly |   |
-+============+=======+=========+==========+===========+=============+===+
-+------------+-------+---------+----------+-----------+-------------+---+
-
-+---------+---------+-------+----------+-----------+----------------+---+
-| > **Re  | > No    | > R   | > Report | > Report  | >              |   |
-| porting | >       | eport | > g      | >         |  Comprehensive |   |
-| > Fin   |  report | >     | enerated | generated | > report with  |   |
-| dings** | > ge    | lacks | > but    | > with    | > thorough     |   |
-|         | nerated | > d   | > lacks  | > some    | > analysis and |   |
-|         |         | etail | >        | >         | >              |   |
-|         |         |       | analysis |  analysis |  documentation |   |
-+=========+=========+=======+==========+===========+================+===+
-+---------+---------+-------+----------+-----------+----------------+---+
+![Uploading image.png…]()

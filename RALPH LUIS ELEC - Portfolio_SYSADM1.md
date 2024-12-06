@@ -105,7 +105,8 @@ Monitoring Print Services in Windows Server 2019:\
 \
 \
 Kerberos Lab Activity: A step-by-step Guide:\
-![image](https://github.com/user-attachments/assets/924752d9-a7d6-4c20-9f4f-8f46491e5ba1)
+![image](https://github.com/user-attachments/assets/e427dbd0-7a42-413b-a517-9d5da1ceca82)
+
 
 
 \

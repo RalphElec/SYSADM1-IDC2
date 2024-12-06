@@ -1,18 +1,4 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| eb528649dc584db888b05e3bfeb54e7c |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, RALPH LUIS G.        | DATE                   | /50      |
-|                                  | PERFORMED:11/14/2024   |          |
-+----------------------------------+------------------------+----------+
-| Section:IDC2                     | DATE SUBMITTED:        |          |
-|                                  | 11/14/2024             |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/e8ac0df9-ea83-47ea-a71e-5b421c255b0c)
 
 # SYSADM1 -- Kerberos Lab Activity: A step-by-step Guide
 
@@ -46,11 +32,11 @@ height="6.56875in"}
 
 ***VM2:***
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image3.png){width="7.027083333333334in"
-height="6.701388888888889in"}
+![image](https://github.com/user-attachments/assets/39bc09b5-5fc8-4695-9aed-fda456962e0e)
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image4.png){width="7.027083333333334in"
-height="2.2756944444444445in"}
+
+![image](https://github.com/user-attachments/assets/770e565f-d552-47f3-9abd-f28963778477)
+
 
 2.  **Install Kerberos Server Packages on VM1 (Kerberos Server):**
 
@@ -60,9 +46,9 @@ height="2.2756944444444445in"}
 *bash*
 
 *sudo apt install krb5-kdc krb5-admin-server --y*
+![image](https://github.com/user-attachments/assets/3648176b-7c5c-4335-99e6-4d43e71166cb)
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image5.png){width="7.027083333333334in"
-height="4.360416666666667in"}
+
 
 3.  **Install Kerberos Client Package on VM2 (Kerberos Client):**
 
@@ -72,20 +58,20 @@ height="4.360416666666667in"}
 
 *sudo apt install krb5-user --y*
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image6.png){width="7.027083333333334in"
-height="4.2347222222222225in"}
+![image](https://github.com/user-attachments/assets/aa6dd014-6c02-4b27-89d2-3721a4207663)
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image7.png){width="7.027083333333334in"
-height="1.8395833333333333in"}
+
+![image](https://github.com/user-attachments/assets/fa0eba51-209d-473f-8b9a-9e352fb4b563)
+
 
 -   During installation, when prompted, enter the Kerberos realm you
     plan to set up, e.g., MYLAB.LOCAL.
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image8.png){width="7.027083333333334in"
-height="3.3229166666666665in"}
+![image](https://github.com/user-attachments/assets/c61a88fe-f996-4c40-9ea3-8db62d916c88)
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image9.png){width="7.027083333333334in"
-height="4.2340277777777775in"}
+
+![image](https://github.com/user-attachments/assets/523e4477-e3ae-4c78-b6ab-eb1ace997a91)
+
 
 **Step 2: Configure the Kerberos Server (VM1)**
 
@@ -118,8 +104,8 @@ admin_server = \<VM1_IP_or_hostname\>
 
 -   Save and close the file (Ctrl+X, then Y, and Enter to confirm).
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image10.png){width="7.027083333333334in"
-height="3.286111111111111in"}
+![image](https://github.com/user-attachments/assets/d51a1409-0da2-4649-9744-8f7e129a8e3e)
+
 
 2.  **Initialize the Kerberos Database:**
 
@@ -131,8 +117,8 @@ height="3.286111111111111in"}
 
 -   You will be prompted to set a password for the Kerberos database.
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image11.png){width="7.027083333333334in"
-height="5.585416666666666in"}
+![image](https://github.com/user-attachments/assets/db546a89-20c2-4e44-8c8d-909d49fb2661)
+
 
 3.  **Start and Enable the Kerberos Services:**
 
@@ -148,9 +134,8 @@ height="5.585416666666666in"}
 *sudo systemctl enable krb5-kdc*
 
 *sudo systemctl enable krb5-admin-server*
+![image](https://github.com/user-attachments/assets/cc2fdd96-1dfc-49a3-acc5-60058e524678)
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image12.png){width="7.027083333333334in"
-height="1.0659722222222223in"}
 
 **Step 3: Set Up a Kerberos User Principal**
 
@@ -165,8 +150,8 @@ height="1.0659722222222223in"}
 
 -   Set a password for testuser.
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image13.png){width="7.027083333333334in"
-height="1.1736111111111112in"}
+![image](https://github.com/user-attachments/assets/ed0bb0d4-c4f9-49e2-a4e5-744a08a735ff)
+
 
 2.  **Verify the User Principal:**
 
@@ -176,8 +161,7 @@ height="1.1736111111111112in"}
 
 *sudo kadmin.local -q \"listprincs\"*
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image14.png){width="7.027083333333334in"
-height="1.6694444444444445in"}
+![image](https://github.com/user-attachments/assets/807df621-9057-4daf-97de-17d5bbf3ae8f)
 
 **Step 4: Configure the Kerberos Client (VM2)**
 
@@ -189,8 +173,8 @@ height="1.6694444444444445in"}
 
 *sudo nano /etc/krb5.conf*
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image15.png){width="7.027083333333334in"
-height="3.895138888888889in"}
+![image](https://github.com/user-attachments/assets/3b0d136c-7fb9-40f1-b37e-b39470622c03)
+
 
 -   Set the default realm to MYLAB.LOCAL and point to the KDC and admin
     server on VM1. The configuration should match what you set on VM1.
@@ -205,8 +189,8 @@ height="3.895138888888889in"}
 
 *kinit <testuser@MYLAB.LOCAL>*
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image16.png){width="7.027083333333334in"
-height="0.36736111111111114in"}*\
+![image](https://github.com/user-attachments/assets/24aa1a9e-a1b9-47d4-b0b4-fcd193e13e44)
+
 **There was an error on trying to find my default realm even though I
 established the connection already.***
 
@@ -221,8 +205,7 @@ established the connection already.***
 
 *klist*
 
-![](vertopal_eb528649dc584db888b05e3bfeb54e7c/media/image17.png){width="6.678015091863517in"
-height="0.7917771216097987in"}
+![image](https://github.com/user-attachments/assets/566bce01-89a0-4d37-90ee-2c5604e8ce0c)
 
 -   You should see details about the ticket, such as the principal and
     expiration time, confirming successful Kerberos authentication.

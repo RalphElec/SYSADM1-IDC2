@@ -1,18 +1,4 @@
-+----------------------------------+------------------------+----------+
-| ![](vertopal_                    |                        |          |
-| 3e482e4487c34c478d08a7cb630e283a |                        |          |
-| /media/image1.png){width="2.4in" |                        |          |
-| height="0.5881944444444445in"}   |                        |          |
-|                                  |                        |          |
-| SCHOOL OF INFORMATION AND        |                        |          |
-| TECHNOLOGY                       |                        |          |
-+----------------------------------+------------------------+----------+
-| NAME: ELEC, RALPH LUIS G.        | DATE                   | 45/50    |
-|                                  | PERFORMED:08/22/2024   |          |
-+----------------------------------+------------------------+----------+
-| Section:IDC2                     | DATE SUBMITTED:        |          |
-|                                  | 08/22/2024             |          |
-+----------------------------------+------------------------+----------+
+![image](https://github.com/user-attachments/assets/2e24c30d-6c21-4918-964d-e7b9bfbccf41)
 
 # SYSADM1 -- Introduction to File Systems in Windows and Linux
 

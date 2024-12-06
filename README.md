@@ -8,7 +8,7 @@ This portfolio is a collection of assignments, projects, and documentation that 
 
 # My learnings 
 
-- I learned learned how to use GitHub effectively, including committing, updating, and managing repositories. This experience emphasized the importance of version control in tracking changes and collaborating on projects.
+- I learned how to use GitHub effectively, including committing, updating, and managing repositories. This experience emphasized the importance of version control in tracking changes and collaborating on projects.
 - By maintaining and making a portfolio and documenting your projects, I developed skills in organizing my work and creating clear records of my progress, which is critical for system administrators.
 - Updating projects both at home and school over a specific timeline taught me how to manage my time efficiently and balance multiple tasks.
 - Through my assignments and projects, I learned foundational concepts in systems administration, such as managing systems, troubleshooting, and understanding network or server environments.

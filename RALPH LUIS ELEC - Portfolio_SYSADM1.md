@@ -76,14 +76,14 @@
 ![image](https://github.com/user-attachments/assets/c0376fda-768b-4e6b-8ffe-2eec3e381834)
 
 
-**\
 \
 \
 \
 \
-**
+\
 
-**\
+
+\
 **Monitoring Print Services in Windows Server 2019:**\
 ![image](https://github.com/user-attachments/assets/2857e196-1cf2-4f87-b579-83f25640b687)
 
@@ -150,7 +150,7 @@
 ![image](https://github.com/user-attachments/assets/628e8644-e0c3-4548-b160-6031ce3b3d54)
 
 \
-**
+
 
 **Course Reflection**
 

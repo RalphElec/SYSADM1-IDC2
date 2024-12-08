@@ -49,7 +49,7 @@
 \
 \
 \
-Midterm Assignment:
+**Midterm Assignment:**
 
 ![image](https://github.com/user-attachments/assets/4d9933a5-9f84-42a6-bd17-3debe82e3404)
 
@@ -72,7 +72,7 @@ Midterm Assignment:
 \
 \
 \
-Setting Up Webserver:\
+**Setting Up Webserver:**\
 ![image](https://github.com/user-attachments/assets/c0376fda-768b-4e6b-8ffe-2eec3e381834)
 
 
@@ -84,7 +84,7 @@ Setting Up Webserver:\
 **
 
 **\
-Monitoring Print Services in Windows Server 2019:\
+**Monitoring Print Services in Windows Server 2019:**\
 ![image](https://github.com/user-attachments/assets/2857e196-1cf2-4f87-b579-83f25640b687)
 
 \
@@ -104,7 +104,7 @@ Monitoring Print Services in Windows Server 2019:\
 \
 \
 \
-Kerberos Lab Activity: A step-by-step Guide:\
+**Kerberos Lab Activity: A step-by-step Guide:**\
 ![image](https://github.com/user-attachments/assets/e427dbd0-7a42-413b-a517-9d5da1ceca82)
 
 
@@ -134,7 +134,7 @@ Kerberos Lab Activity: A step-by-step Guide:\
 \
 \
 \
-Git Basics:\
+**Git Basics:**\
 ![image](https://github.com/user-attachments/assets/d76f7988-a133-4bb2-970d-d2a9e9be8020)
 
 
@@ -146,7 +146,7 @@ Git Basics:\
 \
 \
 \
-Case Study: TechGuard Solutions\' Recovery Disk Strategy in Action:\
+**Case Study: TechGuard Solutions\' Recovery Disk Strategy in Action:**\
 ![image](https://github.com/user-attachments/assets/628e8644-e0c3-4548-b160-6031ce3b3d54)
 
 \

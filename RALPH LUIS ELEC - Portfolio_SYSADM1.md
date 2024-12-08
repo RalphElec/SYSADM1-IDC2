@@ -32,7 +32,7 @@
 \
 \
 \
-**Introduction to File Systems in Windows and Linux:
+**Introduction to File Systems in Windows and Linux:**
 ![image](https://github.com/user-attachments/assets/59b6298f-27b6-432c-ad0a-036804625464)
 
 \
